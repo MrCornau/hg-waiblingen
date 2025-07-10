@@ -203,7 +203,6 @@ export default function ContactForm() {
     type="text"
     id="website_url"
     name="website_url"
-    className="mt-1 border border-red-400 rounded-sm px-2 py-1 text-red-700"
     className="hidden"
   />
 
