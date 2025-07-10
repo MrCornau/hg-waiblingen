@@ -15,27 +15,26 @@ export default function ContactForm() {
   const [message, setMessage] = useState("")
 
   async function handleSubmit(formData: FormData) {
-    setIsSubmitting(true)
-    setSubmitStatus("idle")
-
+    setIsSubmitting(true);
+    setSubmitStatus("idle");
     try {
-      const result = await submitContactForm(formData)
-
+      const result = await submitContactForm(formData);
+  
       if (result.success) {
-        setSubmitStatus("success")
-        setMessage("Vielen Dank für Ihre Nachricht! Wir melden uns innerhalb von 24 Stunden bei Ihnen.")
-        // Reset form
-        const form = document.getElementById("contact-form") as HTMLFormElement
-        form?.reset()
+        setSubmitStatus("success");
+        setMessage("Vielen Dank für Ihre Nachricht! Wir melden uns innerhalb von 24 Stunden bei Ihnen.");
+  
+        const form = document.getElementById("contact-form") as HTMLFormElement;
+        form?.reset();
       } else {
-        setSubmitStatus("error")
-        setMessage(result.message || "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.")
+        setSubmitStatus("error");
+        setMessage(result.message || "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.");
       }
     } catch (error) {
-      setSubmitStatus("error")
-      setMessage("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.")
+      setSubmitStatus("error");
+      setMessage("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.");
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
   }
 
@@ -69,6 +68,7 @@ export default function ContactForm() {
         )}
 
         <form id="contact-form" action={handleSubmit} className="space-y-6">
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
             <div>
               <Label htmlFor="name" className="text-sm font-medium text-dark-blue-gray">
@@ -199,6 +199,13 @@ export default function ContactForm() {
               nutzen Sie bitte das Kontaktformular mit entsprechendem Hinweis im Betreff.
             </p>
           </div>
+          <input
+    type="text"
+    id="website_url"
+    name="website_url"
+    className="mt-1 border border-red-400 rounded-sm px-2 py-1 text-red-700"
+    className="hidden"
+  />
 
           <Button
             type="submit"
@@ -222,6 +229,12 @@ export default function ContactForm() {
               </>
             )}
           </Button>
+          <div>
+  <label htmlFor="website_url" className="text-sm font-medium text-dark-blue-gray">
+
+  </label>
+  
+</div>
         </form>
 
         <div className="mt-6 text-center text-sm text-gray-600">
