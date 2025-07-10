@@ -41,7 +41,7 @@ export default function LandingPage() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <div className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0">
-              <img src="/logo-website.svg" alt="Haus & Gartenservice Waiblingen Logo" className="h-10 w-auto sm:h-12" />
+              <img src="/Logo-Website.svg" alt="Haus & Gartenservice Waiblingen Logo" className="h-10 w-auto sm:h-12" />
               <div className="min-w-0"></div>
             </div>
 
@@ -154,7 +154,7 @@ export default function LandingPage() {
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <div className="w-32 h-32 bg-white flex items-center justify-center mx-auto mb-8 shadow-2xl rounded-sm p-4">
             <img
-              src="/logo-single.svg"
+              src="/Logo-single.svg"
               alt="Haus & Gartenservice Waiblingen Logo"
               className="w-full h-full object-contain"
             />
