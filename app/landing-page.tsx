@@ -178,7 +178,10 @@ export default function LandingPage() {
       <section id="about" className="py-16 bg-warm-light-gray" role="main">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="bg-wood-beige p-8 flex items-center justify-center h-[400px] rounded-sm">
+            <div
+              className="bg-wood-beige p-8 flex items-center justify-center h-[400px] rounded-sm"
+              style={{ height: "-webkit-fill-available" }}
+            >
               <div className="text-center">
                 <div className="w-24 h-24 bg-dark-blue-gray flex items-center justify-center mx-auto mb-6 rounded-sm">
                   <Home className="w-12 h-12 text-white" strokeWidth={1.5} aria-hidden="true" />
@@ -187,7 +190,7 @@ export default function LandingPage() {
                 <p className="text-dark-blue-gray">Ihre Immobilie in zuverlässigen Händen</p>
               </div>
             </div>
-            <div className="bg-accent-green text-white p-8 h-[400px] flex flex-col justify-center rounded-sm">
+            <div className="bg-accent-green text-white p-8 h-auto flex flex-col justify-center rounded-sm">
               <h2 className="text-3xl font-medium mb-6">Ihr zuverlässiger Partner...</h2>
               <p className="text-lg mb-4 leading-relaxed">
                 für alle Arbeiten rund um Haus und Garten im Rems-Murr-Kreis. Von der Möbelmontage bis zur Gartenpflege
