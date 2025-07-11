@@ -10,12 +10,10 @@ export default function DatenschutzPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-dark-blue-gray flex items-center justify-center">
-                <span className="text-white font-medium text-xl">HG</span>
-              </div>
+              
               <div>
-                <h1 className="text-xl font-medium text-dark-blue-gray">Haus & Gartenservice Waiblingen</h1>
-                <p className="text-sm text-gray-600">Rems-Murr-Kreis</p>
+              <img src="/Logo-Website.svg" alt="Haus & Gartenservice Waiblingen Logo" className="h-12 w-auto" />
+              
               </div>
             </div>
             <Link href="/">
@@ -81,7 +79,7 @@ export default function DatenschutzPage() {
                 <div className="text-gray-700 space-y-4">
                   <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
                   <p>
-                    <strong>[Hosting-Anbieter]</strong>
+                    <strong>Strato</strong>
                   </p>
                   <p>[Adresse des Hosting-Anbieters]</p>
                   <p>Details entnehmen Sie der Datenschutzerklärung des Anbieters: [Link zur Datenschutzerklärung]</p>
@@ -118,30 +116,29 @@ export default function DatenschutzPage() {
                   <p>Krautlandweg 3</p>
                   <p>71336 Waiblingen</p>
                   <p>
-                    <strong>Telefon:</strong> [Telefonnummer]
+                    <strong>Telefon:</strong> 0163 7445844
                   </p>
                   <p>
-                    <strong>E-Mail:</strong> info@hausgartenwaiblingen.de
+                    <strong>E-Mail:</strong> info@hg-waiblingen.de
                   </p>
                 </div>
               </section>
 
               <section>
-                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">4. Datenerfassung auf dieser Website</h2>
+                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">Einsatz des E-Mail-Versanddienstleisters Resend</h2>
                 <h3 className="text-xl font-medium text-dark-blue-gray mb-3">Kontaktformular</h3>
                 <div className="text-gray-700 space-y-4">
                   <p>
-                    Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem
-                    Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage
-                    und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre
-                    Einwilligung weiter.
+                  Wir nutzen den E-Mail-Versanddienst Resend, betrieben von Resend, Inc., 2261 Market Street #4378, San Francisco, CA 94114, USA, um automatisierte E-Mails wie Formularbestätigungen oder Systemnachrichten zu versenden.
+
+Wenn Sie ein Formular auf unserer Website ausfüllen, werden die von Ihnen angegebenen Daten (z. B. Name, E-Mail-Adresse, Nachricht) zum Zwecke der Zustellung einer Eingangsbestätigung oder zur Weiterleitung Ihrer Anfrage durch Resend verarbeitet. Die Daten werden auf Servern von Resend verarbeitet.
                   </p>
                   <p>
-                    Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre
-                    Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher
-                    Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten
-                    Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO)
-                    oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.
+                  Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem effizienten und zuverlässigen E-Mail-Versand).
+
+Die Übermittlung Ihrer Daten an Resend erfolgt in die USA. Zur Sicherstellung eines angemessenen Datenschutzniveaus stützt sich Resend auf die von der EU-Kommission genehmigten Standardvertragsklauseln (Standard Contractual Clauses – SCCs) gemäß Art. 46 Abs. 2 lit. c DSGVO.
+
+Weitere Informationen zur Datenverarbeitung durch Resend finden Sie unter: <a href="https://resend.com/privacy">https://resend.com/privacy</a>
                   </p>
                 </div>
               </section>
@@ -178,7 +175,7 @@ export default function DatenschutzPage() {
 
               <section className="bg-warm-light-gray p-4 border-l-4 border-accent-green">
                 <p className="text-sm text-gray-600">
-                  <strong>Stand:</strong> Januar 2024
+                  <strong>Stand:</strong> Juli 2025
                   <br />
                   Diese Datenschutzerklärung wurde mit Hilfe von Vorlagen erstellt und an unsere spezifischen
                   Bedürfnisse angepasst.

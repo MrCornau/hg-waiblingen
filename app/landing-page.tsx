@@ -159,7 +159,9 @@ export default function LandingPage() {
               className="w-full h-full object-contain"
             />
           </div>
-          <h1 className="text-5xl font-medium mb-4 tracking-wide">HAUS & GARTENSERVICE WAIBLINGEN</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium mb-4 tracking-wide px-4">
+            HAUS & GARTENSERVICE WAIBLINGEN
+          </h1>
           <h2 className="text-lg sm:text-xl font-medium mb-6">
             Zuverlässige Hilfe bei Möbelmontage, Renovierungsarbeiten & Gartenpflege – aus einer Hand.
           </h2>
@@ -273,11 +275,11 @@ export default function LandingPage() {
                 <li>Bodenverlegung</li>
                 <li>Fugenarbeiten</li>
                 <li>Montage von Bauelementen</li>
-                <li>Trockenbau</li>
+                {/* <li>Trockenbau</li> */}
                 <li>Hausmeisterservice</li>
                 <li>Gartenpflege</li>
                 <li>Transport & Umzugshilfe</li>
-                <li>Kleinreparaturen</li>
+                {/* <li>Kleinreparaturen</li> */}
               </ul>
             </div>
 

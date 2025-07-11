@@ -23,13 +23,13 @@ export default function DetailedServices() {
       image:
         "https://images.unsplash.com/photo-1567711601167-cd0efb1f8a99?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=562&q=80",
     },
-    {
-      title: "Trockenbau",
-      description: "Leichte Trennwände",
-      alt: "Trockenbau und leichte Trennwände in Waiblingen und Umgebung",
-      image:
-        "https://images.unsplash.com/photo-1733431772808-82d878e59000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=562&q=80",
-    },
+    // {
+    //   title: "Trockenbau",
+    //   description: "Leichte Trennwände",
+    //   alt: "Trockenbau und leichte Trennwände in Waiblingen und Umgebung",
+    //   image:
+    //     "https://images.unsplash.com/photo-1733431772808-82d878e59000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=562&q=80",
+    // },
     {
       title: "Hausmeisterservice",
       description: "Fensterreinigung, Pflege, Kleinreparaturen",
@@ -51,13 +51,13 @@ export default function DetailedServices() {
       image:
         "https://images.unsplash.com/photo-1614976523626-d598aafd4fda?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=562&q=80",
     },
-    {
-      title: "Kleinreparaturen",
-      description: "Schnelle Hilfe im Haushalt",
-      alt: "Kleinreparaturen und schnelle Hilfe im Haushalt in Waiblingen",
-      image:
-        "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=562&q=80",
-    },
+    // {
+    //   title: "Kleinreparaturen",
+    //   description: "Schnelle Hilfe im Haushalt",
+    //   alt: "Kleinreparaturen und schnelle Hilfe im Haushalt in Waiblingen",
+    //   image:
+    //     "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=562&q=80",
+    // },
   ]
 
   return (

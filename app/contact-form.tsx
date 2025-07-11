@@ -164,11 +164,11 @@ export default function ContactForm() {
               <option value="bodenverlegung">Bodenverlegung</option>
               <option value="fugenarbeiten">Fugenarbeiten</option>
               <option value="montage-bauelemente">Montage von Bauelementen</option>
-              <option value="trockenbau">Trockenbau</option>
+              {/* <option value="trockenbau">Trockenbau</option> */}
               <option value="hausmeisterservice">Hausmeisterservice</option>
               <option value="gartenpflege">Gartenpflege</option>
               <option value="transport-umzug">Transport & Umzugshilfe</option>
-              <option value="kleinreparaturen">Kleinreparaturen</option>
+              {/* <option value="kleinreparaturen">Kleinreparaturen</option> */}
               <option value="sonstiges">Sonstiges</option>
             </select>
           </div>

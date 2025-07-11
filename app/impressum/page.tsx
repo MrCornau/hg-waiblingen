@@ -10,13 +10,10 @@ export default function ImpressumPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-dark-blue-gray flex items-center justify-center">
-                <span className="text-white font-medium text-xl">HG</span>
-              </div>
-              <div>
-                <h1 className="text-xl font-medium text-dark-blue-gray">Haus & Gartenservice Waiblingen</h1>
-                <p className="text-sm text-gray-600">Rems-Murr-Kreis</p>
-              </div>
+       
+                <img src="/Logo-Website.svg" alt="Haus & Gartenservice Waiblingen Logo" className="h-12 w-auto" />
+              
+              
             </div>
             <Link href="/">
               <Button className="bg-cool-blue hover:bg-dark-blue-gray text-white transition-colors">
@@ -41,7 +38,7 @@ export default function ImpressumPage() {
                   <p>
                     <strong>Klaus Cornau</strong>
                   </p>
-                  <p>Haus & Gartenservice Waiblingen</p>
+                  {/* <p>Haus & Gartenservice Waiblingen</p> */}
                   <p>Krautlandweg 3</p>
                   <p>71336 Waiblingen</p>
                 </div>
@@ -51,14 +48,14 @@ export default function ImpressumPage() {
                 <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">Kontakt</h2>
                 <div className="text-gray-700 space-y-2">
                   <p>
-                    <strong>Telefon:</strong> [Telefonnummer]
+                    <strong>Telefon:</strong> 0163 7445844
                   </p>
                   <p>
-                    <strong>E-Mail:</strong> info@hausgartenwaiblingen.de
+                    <strong>E-Mail:</strong> info@hg-waiblingen.de
                   </p>
                 </div>
               </section>
-
+{/* 
               <section>
                 <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">Umsatzsteuer-ID</h2>
                 <div className="text-gray-700">
@@ -67,7 +64,7 @@ export default function ImpressumPage() {
                     <strong>[USt-IdNr.]</strong>
                   </p>
                 </div>
-              </section>
+              </section> */}
 
               <section>
                 <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">
@@ -78,11 +75,11 @@ export default function ImpressumPage() {
                     <strong>Berufsbezeichnung:</strong> Dienstleister
                   </p>
                   <p>
-                    <strong>Zuständige Kammer:</strong> [Kammer]
+                    <strong>Zuständige Kammer:</strong> Handwerkskammer Stuttgart
                   </p>
-                  <p>
+                  {/* <p>
                     <strong>Verliehen durch:</strong> Deutschland
-                  </p>
+                  </p> */}
                 </div>
               </section>
 
