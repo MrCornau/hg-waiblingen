@@ -32,7 +32,6 @@ export default function HausmeisterservicePage() {
     "Treppenhausreinigung",
     "Kleinreparaturen",
     "Wartungsarbeiten",
-    "Hausordnung überwachen",
     "Grünpflege",
   ]
 

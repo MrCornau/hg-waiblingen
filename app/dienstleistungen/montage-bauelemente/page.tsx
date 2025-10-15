@@ -32,7 +32,6 @@ export default function MontageBauelementePage() {
     "Fenster",
     "Regale",
     "Zargen",
-    "Regale",
   ]
 
   return (

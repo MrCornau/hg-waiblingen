@@ -28,10 +28,9 @@ export default function FugenarbeitenPage() {
   }, [])
 
   const services = [
-    "Silikonfugen erneuern",
-    "Sanitärfugen abdichten",
-    "Küchenfugen versiegeln",
-    "Fensterfugen sanieren",
+    "Silikonfugen",
+    "Küchenfugen",
+    "Fensterfugen",
     "Badezimmerfugen",
     "Duschkabinen abdichten",
   ]
