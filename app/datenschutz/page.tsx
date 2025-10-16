@@ -36,7 +36,7 @@ export default function DatenschutzPage() {
 
             <div className="space-y-8">
               <section>
-                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">1. Datenschutz auf einen Blick</h2>
+                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">Datenschutz auf einen Blick</h2>
                 <h3 className="text-xl font-medium text-dark-blue-gray mb-3">Allgemeine Hinweise</h3>
                 <div className="text-gray-700 space-y-4">
                   <p>
@@ -77,7 +77,7 @@ export default function DatenschutzPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">2. Hosting</h2>
+                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">Hosting</h2>
                 <div className="text-gray-700 space-y-4">
                   <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
                   <p>
@@ -138,8 +138,23 @@ Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Vertragsa
                 </div>
               </section>
 
+
               <section>
-                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">5. Ihre Rechte</h2>
+                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">Google Analytics</h2>
+      
+                <div className="text-gray-700 space-y-4">
+                  <p>
+                  Diese Website benutzt Google Analytics, einen Webanalysedienst der Google LLC („Google“). Google Analytics verwendet sogenannte „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+Wir haben die IP-Anonymisierung auf dieser Website aktiviert, sodass Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt wird.
+Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.
+Außerdem können Sie die Erfassung durch Google Analytics verhindern, indem Sie das Browser-Add-on zur Deaktivierung von Google Analytics herunterladen und installieren: https://tools.google.com/dlpage/gaoptout
+.
+Mehr Informationen zum Datenschutz bei Google Analytics finden Sie in der Datenschutzerklärung von Google: https://support.google.com/analytics/answer/6004245?hl=de
+.</p>
+                </div>
+              </section>
+              <section>
+                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">Ihre Rechte</h2>
                 <div className="text-gray-700 space-y-4">
                   <p>
                     Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer
@@ -155,7 +170,7 @@ Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Vertragsa
               </section>
 
               <section>
-                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">6. Speicherdauer</h2>
+                <h2 className="text-2xl font-medium text-dark-blue-gray mb-4">Speicherdauer</h2>
                 <div className="text-gray-700 space-y-4">
                   <p>
                     Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde,

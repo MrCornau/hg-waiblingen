@@ -49,8 +49,12 @@ export default function RootLayout({
         <meta name="geo.position" content="48.8317;9.3156" />
         <meta name="ICBM" content="48.8317, 9.3156" />
         <link rel="canonical" href="https://hausgartenservice-waiblingen.de" />
+        <link rel="stylesheet" href="/klaro/klaro-custom.css" />
       </head>
-      <body>{children}</body>
+      <body>{children}
+      <script defer src="/klaro/klaro-config.js"></script>
+      <script defer src="/klaro/klaro.js"></script>
+      </body>
     </html>
   )
 }

@@ -1,0 +1,68 @@
+/* Klaro Banner – Modern Look */
+.cookie-notice {
+  background: #1e1e1e !important;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+/* Buttons */
+.cm-btn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.cm-btn:hover {
+  background-color: #a5c6ec;
+}
+
+.cm-btn-decline {
+  background: #999;
+}
+
+.cm-modal {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+/* Toggle switches */
+.cm-toggle {
+  background: #ddd;
+  border-radius: 20px;
+  width: 40px;
+  height: 20px;
+  position: relative;
+}
+
+.cm-toggle::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  transition: left 0.3s ease;
+}
+
+.cm-toggle.cm-checked {
+  background: #0070f3;
+}
+
+.cm-toggle.cm-checked::after {
+  left: 21px;
+}
